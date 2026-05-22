@@ -1,0 +1,43 @@
+body{
+
+    font-family: Arial, sans-serif;
+    display: flex;
+
+
+}
+
+.menu {
+    width: 50px;
+    background-color: #00b0c7;
+    padding: 20px;
+    height: 100vh;
+    border-radius: 15px;
+    border: solid 2px black;
+    overflow: hidden;
+    transition: 0.5s;
+    
+}
+.menu:hover{
+    width: 200px;
+}
+
+.conteudo {
+    flex: 1;
+    padding: 20px;
+}
+
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    color: #ffffff;
+}
+
+
+.menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    padding: 10px 0;
+
+}
